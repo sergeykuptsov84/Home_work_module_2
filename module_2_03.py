@@ -22,7 +22,6 @@ while index < len(my_list):
     if my_list[index] == 0:
         index +=1
         continue
-    index += 1
     if my_list[index] < 0:
          break
     print(my_list[index])
